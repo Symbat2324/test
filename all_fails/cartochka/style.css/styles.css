@@ -1,0 +1,64 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #2C2E31;
+    text-align: center;
+}
+button{
+    background: inherit;
+    border: 1px solid white;
+    min-width: 80px;
+    height: 30px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #2C2E31;
+    color: black;
+}
+input{
+    background: inherit;
+    border: none;
+    border-bottom: 2px solid white ;
+    font-size: 0.1em;
+    color: white;
+    outline: none;
+    transition: .3s;
+}
+input:focus{
+    font-size: 1.3em;
+   
+}
+#root{
+    width: 50%;
+    margin: auto;
+    margin-top: 5%;
+}
+.foto img{
+    width: 300px;
+    border-radius: 50%;
+}
+.foto{
+    margin:auto;
+    border: 2px solid white;
+    width: 80%;
+    margin-top: 5%;
+    padding: 2%;
+}
+.foto h3{
+    font-size: 2em;
+    margin-top: 2%;
+}
+.foto b{
+    font-size: 1.6em;
+    font-size: 2%;
+}
+.foto b,.foto p{
+    font-size: 1.6em;
+}
+.foto button{
+    margin-top: 3%;
+}

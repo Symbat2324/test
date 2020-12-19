@@ -1,0 +1,112 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.addWord{
+    width:60%;
+    margin: auto;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.addWord input,.addWord button{
+    background-color:transpert;
+    color: black;
+    border: none;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+}
+.addWord input::placeholder{
+    align-items: center;
+    text-align: center;
+}
+input::placeholder{
+    align-items: center;
+    text-align: center;
+}
+.addWord button{
+    border: 1px solid black;
+    width: 20%;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.addWord button:hover{
+    background-color: black;
+    color: white;
+    opacity: 9;
+}
+
+.testBtn{
+    width:60% ;
+    margin-left: 20%;
+    margin-top: 10px;
+    height: 28px;
+    font-size: 24px;
+    transition: 1s;
+    /* color: white; */
+    cursor: pointer;
+    border-radius: 25px;
+
+
+}
+.testBtn:hover{
+    background-color: black;
+    color: white;
+    opacity: 9;
+
+}
+#testModal{
+    width: 70%;
+    margin-left: 15%;
+    z-index: 2;
+    box-shadow: 25px 25px 35px #000000;
+    height: 450px;
+    border: 2px solid rgba(175, 175, 175);
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+#testModal input{
+    background-color:transpert;
+    color: black;
+    margin-top: 20%;
+    border: none;
+    font-size: 24px;
+    border-bottom: 1px solid black;
+    height: 30px;
+}
+#testModal button{
+    border: 1px solid black;
+    width: 20%;
+    height: 30px;
+    margin-top: 20%;
+    transition: 1s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#testModal button:hover{
+    background-color: black;
+    color: white;
+    opacity: 9;
+}
+#testModal h3{
+    margin-top: 20%;
+    font-size: 30px;
+}
+#testModal p{
+    margin-top: 400px;
+    font-size: 20px;
+}
+.closeModal{
+    font-size: 50px !important; 
+    font-weight: bold;
+    transform: rotate(45deg);
+    color: red;
+    position: absolute;
+    top: -32%;
+    left: 82.5%;
+    cursor: pointer;
+
+}

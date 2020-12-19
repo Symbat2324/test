@@ -1,0 +1,20 @@
+<svg width="87" height="65" viewBox="0 0 87 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="10" y="13" width="67" height="36" fill="#D3F7FF"/>
+<mask id="path-2-inside-1" fill="white">
+<rect x="29" y="52" width="29" height="8" rx="2"/>
+</mask>
+<rect x="29" y="52" width="29" height="8" rx="2" stroke="#304FFE" stroke-width="6" mask="url(#path-2-inside-1)"/>
+<mask id="path-3-inside-2" fill="white">
+<rect x="29" y="52" width="29" height="8" rx="2"/>
+</mask>
+<rect x="29" y="52" width="29" height="8" rx="2" stroke="#304FFE" stroke-width="6" mask="url(#path-3-inside-2)"/>
+<mask id="path-4-inside-3" fill="white">
+<rect x="4" width="79" height="55" rx="2"/>
+</mask>
+<rect x="4" width="79" height="55" rx="2" stroke="#304FFE" stroke-width="6" mask="url(#path-4-inside-3)"/>
+<mask id="path-5-inside-4" fill="white">
+<rect x="4" width="79" height="10" rx="2"/>
+</mask>
+<rect x="4" width="79" height="10" rx="2" stroke="#304FFE" stroke-width="6" mask="url(#path-5-inside-4)"/>
+<path d="M1.5 54C1.5 53.7239 1.72386 53.5 2 53.5H85C85.2761 53.5 85.5 53.7239 85.5 54V57.7639C85.5 57.9533 85.393 58.1264 85.2236 58.2111L85.8855 59.5349L85.2236 58.2111L76.0183 62.8138C75.1158 63.2651 74.1206 63.5 73.1115 63.5H12.6245C11.4933 63.5 10.3817 63.2048 9.39961 62.6436L1.75193 58.2735C1.59614 58.1845 1.5 58.0188 1.5 57.8394V54Z" stroke="#304FFE" stroke-width="3"/>
+</svg>

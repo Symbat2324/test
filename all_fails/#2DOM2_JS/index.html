@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="addWord">
+        <input type="text" placeholder="English" id="engWord">
+        <button onclick="addWord()">Add</button>
+        <input type="text" placeholder="Russian" id="rusWord">
+    </div>
+    <button onclick="test()" class="testBtn">Тест</button>
+    <div id="testModal" style="display: none;">
+        <p class="closeModal" onclick="hideTest()">+</p>
+        <h3 id="quetion">Some Words</h3>
+        <input type="text" placeholder="Translate Words" id="answer">
+        <button onclick="chek()">Chek</button>
+        <p id='points'> 0  /  10 </p>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
